@@ -1,0 +1,1 @@
+trojan://fuck@42.236.73.72:443?security=tls&sni=www.zitian.cn&alpn=http%2F1.1&type=tcp#13%7Cd*********g.com_3%20%233

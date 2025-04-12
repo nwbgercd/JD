@@ -1,0 +1,274 @@
+# Author:https://down.nigx.cn/github.com/Repcz
+p: &p {type: http, interval: 86400, health-check: {enable: true, url: http://www.google-analytics.com/generate_204, interval: 300, timeout: 5000}}
+proxy-providers:
+  自动爬:
+    <<: *p
+    path: ./proxy_provider/自动爬.yaml
+    url: "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml"
+    override:
+      additional-prefix: "[自动爬]"
+  👑星链舒达:
+    <<: *p
+    path: ./proxy_provider/👑星链舒达.yaml
+    url: "https://shz.al/3Mkd"
+    override:
+      additional-prefix: "[👑星链舒达]"
+  👑星链帅气:
+    <<: *p
+    path: ./proxy_provider/👑星链帅气.yaml
+    url: "https://shz.al/aNjd"
+    override:
+      additional-prefix: "[👑星链帅气]"
+  cf1:
+    <<: *p
+    path: ./proxy_provider/cf1.yaml
+    url: "https://shz.al/h6MN"
+    override:
+      additional-prefix: "[cf1]"
+  👑五妹星链:
+    <<: *p
+    path: ./proxy_provider/👑五妹星链.yaml
+    url: "https://shz.al/TeyY"
+    override:
+      additional-prefix: "[👑五妹星链]"
+  碧海:
+    <<: *p
+    path: ./proxy_provider/碧海.yaml
+    url: "https://down.nigx.cn/sdk.bhqt.fun/443"
+    override:
+      additional-prefix: "[碧海]"
+  道长:
+    <<: *p
+    path: ./proxy_provider/道长.yaml
+    url: "https://skr.daozhang.site/clash"
+    override:
+      additional-prefix: "[道长]"
+  日拋节点:
+    <<: *p
+    path: ./proxy_provider/日拋节点.yaml
+    url: "https://url.v1.mk/sub?target=clash&url=http://666.ewwe.gq/ripaojiedian/freenode/main/sub&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false"
+    override:
+      additional-prefix: "[日拋节点]"
+  富婆订阅垃圾:
+    <<: *p
+    path: ./proxy_provider/富婆订阅垃圾.yaml
+    url: "https://url.v1.mk/sub?target=clash&url=https://shz.al/JnKi&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false"
+    override:
+      additional-prefix: "[富婆订阅垃圾]"
+  裤佬:
+    <<: *p
+    path: ./proxy_provider/裤佬.yaml
+    url: "https://url.v1.mk/sub?target=clash&url=https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false"
+    override:
+      additional-prefix: "[裤佬]"
+      
+  节点池:
+    <<: *p
+    path: ./proxy_provider/节点池.yaml
+    url: "https://down.nigx.cn/raw.githubusercontent.com/dongchengjie/airport/main/subs/merged/tested_within.yaml"
+    override:
+      additional-prefix: "[节点池]"
+      
+  旺财:
+    <<: *p
+    path: ./proxy_provider/旺财.yaml
+    url: "https://igdux.top/~Clash"
+    override:
+      additional-prefix: "[旺财]"
+  ✨:
+    <<: *p
+    path: ./proxy_provider/✨.yaml
+    url: "https://subscheck.isfree.pp.ua/all.yaml"
+    override:
+      additional-prefix: "[✨]"
+  粉妹爱pp:
+    path: ./proxy_provider/粉妹爱pp.yaml
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Figdux.top%2F8fSA&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fyuanwangokk-1%2Fsubscribe%2Frefs%2Fheads%2Fmain%2FACL4SSR%2Facl4ssr_with_antiad.ini&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+    override:
+      additional-prefix: "[粉妹爱pp]"
+    <<: *p
+  订阅一:
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-3us.pages.dev%26uuid%3D40af9131-d540-448a-bc56-5bba147a1dc3%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FTG-Twilight%2FAWAvenue-Ads-Rule%2Fmain%2FFilters%2FAWAvenue-Ads-Rule-Clash.yaml&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+    <<: *p
+    override:
+      additional-prefix: "🚫测速"
+      additional-suffix: "🚫流量"
+  订阅二:
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-1cu.pages.dev%26uuid%3D40af9131-d540-448a-bc56-5bba147a1dc3%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FTG-Twilight%2FAWAvenue-Ads-Rule%2Fmain%2FFilters%2FAWAvenue-Ads-Rule-Clash.yaml&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+    <<: *p
+    override:
+      additional-prefix: "🚫测速"
+      additional-suffix: "🚫流量"  
+  订阅三:
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dproxy-34l.pages.dev%26uuid%3D40af9131-d540-448a-bc56-5bba147a1dc3%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FTG-Twilight%2FAWAvenue-Ads-Rule%2Fmain%2FFilters%2FAWAvenue-Ads-Rule-Clash.yaml&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+    <<: *p
+    override:
+      additional-prefix: "🚫测速"
+      additional-suffix: "🚫流量"
+  订阅四:
+    url: https://url.v1.mk/sub?target=clash&url=https%3A%2F%2Falvless.sosorg.nyc.mn%2Fsub%3Fhost%3Dsocks5-7lt.pages.dev%26uuid%3D40af9131-d540-448a-bc56-5bba147a1dc3%26path%3D%252F%253Fed%253D2560&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FTG-Twilight%2FAWAvenue-Ads-Rule%2Fmain%2FFilters%2FAWAvenue-Ads-Rule-Clash.yaml&emoji=false&list=false&xudp=false&udp=false&tfo=false&expand=false&scv=false&fdn=false&new_name=false
+    <<: *p
+    override:
+      additional-prefix: "🚫测速"
+      additional-suffix: "🚫流量"
+    #override: # 修改节点前后缀时，需移除前方的 "#" 符号
+      #additional-prefix: "节点前缀"
+      #additional-suffix: "节点后缀"
+  #Subscribe2: {url: http://your-service-provider, <<: *p}
+  #Subscribe3: {url: http://your-service-provider, <<: *p}
+  #Subscribe4: {url: http://your-service-provider, <<: *p}
+proxies:
+  - {name: 🇨🇳 碧海☁️ 台湾-01, server: aafrtpfxr.twl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27201, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇭🇰 碧海☁️ 香港-01, server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27101, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇭🇰 碧海☁️ 香港-02, server: aafrtpfxr.hkl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27102, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇭🇰 碧海☁️ 香港-03, server: aafrtpfxr.hkl04i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27103, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇭🇰 碧海☁️ 香港-04, server: aafrtpfxr.hkl03i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 10465, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇸🇬 碧海☁️ 新加坡-01, server: aafrtpfxr.sgl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27401, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇸🇬 碧海☁️ 新加坡-02, server: aafrtpfxr.sgl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 42881, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇲🇾 碧海☁️ 马来西亚-01, server: aafrtpfxr.myl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43393, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇲🇾 碧海☁️ 马来西亚-02, server: aafrtpfxr.myl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43383, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇯🇵 碧海☁️ 日本-01, server: aafrtpfxr.jpl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27001, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇯🇵 碧海☁️ 日本-02, server: aafrtpfxr.jpl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27002, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇯🇵 碧海☁️ 日本-03, server: aafrtpfxr.jpl03i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 22271, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇯🇵 碧海☁️ 日本-04, server: aafrtpfxr.jpl04i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 22269, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇰🇷 碧海☁️ 韩国-01, server: aafrtpfxr.krl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 46668, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇦🇺 碧海☁️ 澳大利亚-01, server: aafrtpfxr.aul01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 34017, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇮🇩 碧海☁️ 印尼-01, server: aafrtpfxr.idl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43394, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇮🇳 碧海☁️ 印度-01, server: aafrtpfxr.inl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 42882, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇹🇭 碧海☁️ 泰国-01, server: aafrtpfxr.thl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43395, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇻🇳 碧海☁️ 越南-01, server: aafrtpfxr.vnl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43396, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇳🇱 碧海☁️ 荷兰-01, server: aafrtpfxr.nll01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43591, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇵🇭 碧海☁️ 菲律宾-01, server: aafrtpfxr.phl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 27408, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇵🇰 碧海☁️ 巴基斯坦-01, server: aafrtpfxr.pkl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 42883, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇷🇺 碧海☁️ 俄罗斯-01, server: aafrtpfxr.rul01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 46925, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇹🇷 碧海☁️ 土耳其-01, server: aafrtpfxr.trl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43397, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇺🇸 碧海☁️ 美国-01, server: aafrtpfxr.usl02i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 33505, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇺🇸 碧海☁️ 美国-02, server: aafrtpfxr.usl03i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 33506, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇨🇦 碧海☁️ 加拿大-01, server: aafrtpfxr.cal01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 34016, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇩🇪 碧海☁️ 德国-01, server: aafrtpfxr.del01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43583, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇫🇷 碧海☁️ 法国-01, server: aafrtpfxr.frl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43498, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇬🇧 碧海☁️ 英国-01, server: aafrtpfxr.gbl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 44397, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇦🇪 碧海☁️ 迪拜-01, server: aafrtpfxr.ael01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43497, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇦🇷 碧海☁️ 阿根廷-01, server: aafrtpfxr.arl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43590, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+  - {name: 🇧🇷 碧海☁️ 巴西-01, server: aafrtpfxr.brl01i9zjfegelp.5xfsur8v62.gosdk.xyz, port: 43586, type: trojan, password: b43d531b-e027-4cd0-a437-003b25634169, sni: q08m.vgraxiw73s.hasyaf.cn, skip-cert-verify: false}
+mixed-port: 7893
+tcp-concurrent: true
+allow-lan: true
+ipv6: false
+log-level: info
+unified-delay: true
+global-client-fingerprint: chrome
+find-process-mode: strict
+external_controller: 0.0.0.0:9090
+
+geodata-mode: true
+geox-url:
+  geoip: "https://down.nigx.cn/raw.githubusercontent.com/Loyalsoldier/geoip/release/geoip.dat"
+  geosite: "https://down.nigx.cn/github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
+  mmdb: "https://down.nigx.cn/raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb"
+  asn: "https://down.nigx.cn/raw.githubusercontent.com/Loyalsoldier/geoip/release/GeoLite2-ASN.mmdb"
+
+profile: { store-selected: true, store-fake-ip: false }
+sniffer: { enable: true, sniff: { HTTP: { ports: [80], override-destination: true }, TLS: { ports: [443, 8443] }, QUIC: { ports: [443, 8443] } } }
+
+tun:
+  enable: true
+  stack: mixed
+  dns-hijack: [any:53]
+        
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: redir-host
+  fake-ip-range: 10.100.0.0/8
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  nameserver:
+    - https://120.53.53.53/dns-query
+    - https://223.5.5.5/dns-query
+  proxy-server-nameserver:
+    - https://223.5.5.5/dns-query
+  nameserver-policy:
+    "geosite:cn,private,apple":
+      - https://120.53.53.53/dns-query
+      - https://223.5.5.5/dns-query
+    "geosite:geolocation-!cn,gfw":
+      - "https://dns.cloudflare.com/dns-query#代理设置"
+      - "https://dns.google/dns-query#代理设置"
+
+# 锚点参数
+pg: &pg {type: url-test, proxies: [自动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT]}
+url-test: &url-test {type: url-test, url: http://www.google-analytics.com/generate_204, interval: 300, tolerance: 0, include-all: true}
+select: &select {type: select, include-all: true}
+fallback: &fallback {type: fallback, url: http://www.google-analytics.com/generate_204, interval: 300, include-all: true}
+load-balance: &load-balance {type: load-balance, strategy: consistent-hashing, url: http://www.google-analytics.com/generate_204, interval: 300, include-all: true}
+c: &c {type: http, behavior: classical, format: text, interval: 86400}
+
+proxy-groups:
+- {name: 手动切换, type: select, include-all: true, proxies: [自动切换, 香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://down.nigx.cn/github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png}
+- {name: 自动切换, type: url-test, include-all: true, proxies: [香港节点, 美国节点, 狮城节点, 日本节点, 台湾节点, DIRECT], icon: https://down.nigx.cn/github.com/shindgewongxj/WHATSINStash/raw/main/icon/applesafari.png}
+- {name: 国外网站, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png}
+- {name: 国际媒体, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png}
+- {name: 苹果服务, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_1.png}
+- {name: 微软服务, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png}
+- {name: 谷歌服务, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png}
+- {name: 电报消息, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png}
+- {name: 推特消息, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png}
+- {name: AI, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png}
+- {name: 游戏平台, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png}
+- {name: Emby, <<: *pg, include-all: true, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png}
+- {name: Spotify, <<: *pg, include-all: true, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png}
+- {name: 兜底分流, <<: *pg, icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png}
+- {name: 香港节点, <<: *url-test, filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)", icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png}
+- {name: 美国节点, <<: *url-test, filter: "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)", icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png}
+- {name: 狮城节点, <<: *url-test, filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)", icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png}
+- {name: 日本节点, <<: *url-test, filter: "(?i)🇯🇵|日本|东京|(\b(JP|Japan)\b)", icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png}
+- {name: 台湾节点, <<: *url-test, filter: "(?i)🇨🇳|🇹🇼|台湾|(\b(TW|Tai|Taiwan)\b)", icon: https://down.nigx.cn/raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png}
+
+rule-providers:
+  AD: {<<: *c, path: ./rules/AD.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/Reject.list}
+  Apple: {<<: *c, path: ./rules/Apple.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/Apple.list}
+  YouTube: {<<: *c, path: ./rules/YouTube.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/YouTube.list}
+  Google: {<<: *c, path: ./rules/Google.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/Google.list}
+  Telegram: {<<: *c, path: ./rules/Telegram.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/Telegram.list}
+  Twitter: {<<: *c, path: ./rules/Twitter.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/Twitter.list}
+  Steam: {<<: *c, path: ./rules/Steam.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/Steam.list}
+  Epic: {<<: *c, path: ./rules/Epic.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/Epic.list}
+  AI: {<<: *c, path: ./rules/AI.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/AI.list}
+  Emby: {<<: *c, path: ./rules/Emby.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/Emby.list}
+  Spotify: {<<: *c, path: ./rules/Spotify.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/Spotify.list}
+  Bahamut: {<<: *c, path: ./rules/Bahamut.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/Bahamut.list}
+  Netflix: {<<: *c, path: ./rules/Netflix.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/Netflix.list}
+  Disney: {<<: *c, path: ./rules/Disney.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/Disney.list}
+  PrimeVideo: {<<: *c, path: ./rules/PrimeVideo.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/PrimeVideo.list}
+  HBO: {<<: *c, path: ./rules/HBO.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/HBO.list}
+  TikTok: {<<: *c, path: ./rules/TikTok.list, url: https://down.nigx.cn/github.com/Repcz/Tool/raw/X/Clash/Rules/TikTok.list}
+
+rules:
+  - RULE-SET,AD,REJECT
+  - RULE-SET,AI,AI
+  - RULE-SET,Apple,苹果服务
+  - RULE-SET,YouTube,谷歌服务
+  - RULE-SET,Google,谷歌服务
+  - RULE-SET,Telegram,电报消息
+# - PROCESS-NAME,Telegram,REJECT-DROP # For Telegram macOS
+  - RULE-SET,Twitter,推特消息
+  - RULE-SET,Steam,游戏平台
+  - RULE-SET,Epic,游戏平台
+  - RULE-SET,Emby,Emby
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,Bahamut,国际媒体
+  - RULE-SET,Netflix,国际媒体
+  - RULE-SET,Disney,国际媒体
+  - RULE-SET,PrimeVideo,国际媒体
+  - RULE-SET,HBO,国际媒体
+  - RULE-SET,TikTok,国际媒体
+  - GEOSITE,onedrive,微软服务
+  - GEOSITE,github,微软服务
+  - GEOSITE,microsoft,微软服务
+  - GEOSITE,gfw,国外网站
+  - GEOIP,private,DIRECT
+  - GEOIP,cn,DIRECT
+  - MATCH, 兜底分流
